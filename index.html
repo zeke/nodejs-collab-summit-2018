@@ -14,6 +14,80 @@
   <script>hljs.initHighlightingOnLoad();</script>
 </head>
 <body class='light'>
-  <div>Node.js collab summit 2018</div>
+  <div>Node.js Collaborator Summit 2018: i18n &amp; l10n</div>
+
+  <div>
+    i18n?<br>
+    l10n?<br>
+    a11y?
+  </div>
+
+  <div>numeronyms</div>
+
+  <div>
+    <pre>function numeronym (s) {
+  return s.charAt(0) + (s.length - 2) + s.charAt(s.length - 1)
+}</pre>
+  </div>
+
+  <div>
+      <b>Localization</b> is translating a product into different languages.
+  </div>
+
+  <div>
+      <b>Internationalization</b> is adapting a product to support multiple languages.
+  </div>
+
+  <div>
+      Think of internationalization as <em>readiness for localization</em>.
+  </div>
+
+  <div>
+    github.com/nodejs/i18n
+  </div>
+
+  <div>
+    github.com/nodejs/i18n/projects/1
+  </div>
+
+  <div>what is done?</div>
+
+  <div class="nobreak">✓ working group</div>
+
+  <div class="nobreak">✓ consensus on Crowdin</div>
+
+  <div class="nobreak">✓ repository: nodejs/i18n</div>
+
+  <div class="nobreak">✓ source content from nodejs/node/doc/**/*.md</div>
+
+  <div class="nobreak">✓ policy for supported versions</div>
+
+  <div>
+<pre>~/git/nodejs/i18n
+
+$ tree content -L 1
+content
+├── v10.x
+├── v6.x
+└── v8.x</pre>
+  </div>
+
+  <div>what's next?</div>
+
+  <div>
+    Connect Crowdin to GitHub <span class="faint">#77</span>
+  </div>
+
+  <div>
+    Continuous Integration <span class="faint">#58</span>
+  </div>
+
+  <div>
+    Publish a module to npm <span class="faint">#92</span>
+  </div>
+
+  <div>
+    Electron Crowdin demo?
+  </div>
 </body>
 </html>

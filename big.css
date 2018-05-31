@@ -91,6 +91,10 @@ div.imageText {
   text-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
+.faint {
+  opacity: 0.5;
+}
+
 /* normally not good, but ok in context of full screen directional navigation */
 :focus {
   outline: 0;
@@ -143,4 +147,12 @@ body.jump-mode div.slide-container {
 
 body.jump-mode div.slide-container:hover {
   border: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+pre {
+  font-family: SFMono-Regular, Menlo, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.nobreak {
+  white-space:pre;
 }
